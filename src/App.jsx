@@ -100,8 +100,8 @@ function App() {
       <motion.section initial="hidden" whileInView="visible" viewport={{ once: true }} variants={sectionVariant} className="min-h-screen flex items-center px-6 md:px-20 bg-zinc-950/50 relative py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center w-full z-10">
           <div className="space-y-8 text-left">
-            <motion.div variants={itemVariant} className="inline-block px-4 py-1 rounded-full border border-blue-500/50 text-blue-400 text-xs font-bold uppercase tracking-widest">Müşteriler İçin</motion.div>
-            <motion.h2 variants={itemVariant} className="text-5xl md:text-7xl font-black uppercase">Tamamen <span className="text-blue-500">Ücretsiz</span></motion.h2>
+            <motion.div variants={itemVariant} className="inline-block px-4 py-1 rounded-full border border-blue-500/50 text-blue-400 text-xs font-bold uppercase tracking-widest">Müşterİler İçİn</motion.div>
+            <motion.h2 variants={itemVariant} className="text-5xl md:text-7xl font-black uppercase">Tamamen <span className="text-blue-500">ÜCRETSİZ</span></motion.h2>
             <div className="space-y-6">
               {[
                 { title: "Sıfır Maliyet", desc: "Uygulamayı indirmek, ilan açmak ve iletişime geçmek %100 ücretsizdir." },
@@ -180,20 +180,20 @@ function App() {
           </div>
 
           <div className="space-y-8 text-left order-1 md:order-2">
-            <motion.div variants={itemVariant} className="inline-block px-4 py-1 rounded-full border border-emerald-500/50 text-emerald-400 text-xs font-bold uppercase tracking-widest">Profesyoneller İçin</motion.div>
-            <motion.h2 variants={itemVariant} className="text-5xl md:text-7xl font-black uppercase leading-tight italic">Kazancınız <span className="text-emerald-500 underline decoration-emerald-500/30">Sizin</span></motion.h2>
+            <motion.div variants={itemVariant} className="inline-block px-4 py-1 rounded-full border border-emerald-500/50 text-emerald-400 text-xs font-bold uppercase tracking-widest">Profesyoneller İÇİN</motion.div>
+            <motion.h2 variants={itemVariant} className="text-5xl md:text-7xl font-black uppercase leading-tight italic">Kazancınız <span className="text-emerald-500 underline decoration-emerald-500/30">SİZİN</span></motion.h2>
             <motion.p variants={itemVariant} className="text-white/60 italic text-sm leading-relaxed">Gereksiz maliyetleri geride bırakın.</motion.p>
           </div>
         </div>
       </motion.section>
 
       <motion.section initial="hidden" whileInView="visible" viewport={{ once: true }} variants={sectionVariant} className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-gradient-to-t from-blue-900/10 to-transparent">
-        <motion.h2 variants={itemVariant} className="text-4xl md:text-6xl font-black mb-12 italic uppercase tracking-tighter decoration-blue-500 underline">Neden Biz?</motion.h2>
+        <motion.h2 variants={itemVariant} className="text-4xl md:text-6xl font-black mb-12 italic uppercase tracking-tighter decoration-blue-500 underline">Neden BİZ?</motion.h2>
         <motion.p variants={itemVariant} className="max-w-2xl text-xl text-white/70 mb-12 leading-relaxed">
           Piyasadaki karmaşık ve yüksek komisyonlu sistemlerin aksine, biz hizmet verenin kazancını koruyor, hizmet alanın ise en iyiye ücretsiz ulaşmasını sağlıyoruz.
         </motion.p>
         <motion.div variants={itemVariant} className="space-y-8">
-          <h3 className="text-2xl font-bold uppercase tracking-[0.2em] text-white/40 italic">Hizmet Dünyasında "Teklif Başına Ödeme" Devri Bitti!</h3>
+          <h3 className="text-2xl font-bold uppercase tracking-[0.2em] text-white/40 italic">Hİzmet Dünyasında "Teklİf Başına Ödeme" Devrİ Bİttİ!</h3>
           <div className="flex gap-4 justify-center">
             <button onClick={() => setIsOpen(true)} className="px-14 py-6 bg-white text-black rounded-full font-black hover:scale-110 transition-all uppercase tracking-[0.2em] text-xs shadow-[0_20px_40px_rgba(255,255,255,0.2)]">Hemen Başlayın</button>
           </div>
