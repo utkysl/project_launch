@@ -87,7 +87,7 @@ function App() {
       <motion.section initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={sectionVariant} className="min-h-screen flex items-center justify-center px-6 py-20">
         <div className="max-w-4xl text-center space-y-8">
           <motion.h2 variants={itemVariant} className="text-4xl md:text-7xl font-black leading-tight italic">
-            Artık saatlerce uğraşmanıza gerek yok.
+            Yeni nesil hizmet platformuyla tanışın.
           </motion.h2>
           <motion.p variants={itemVariant} className="text-xl md:text-2xl text-white/60 leading-relaxed">
             GoodJob ile tanışın! Hizmet dünyasında kuralları yeniden yazıyoruz. Aradığınızı bulmak kolay, iş almak masrafsız.
